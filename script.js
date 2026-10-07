@@ -16,3 +16,6 @@ function showNextSlide() {
 }
 
 setInterval(showNextSlide, 4500);
+function toggleMenu() {
+    document.getElementById("main-nav").classList.toggle("active");
+}
